@@ -1,0 +1,4 @@
+require "<%= file_name %>/engine"
+
+module <%= file_name.camelize %>
+end

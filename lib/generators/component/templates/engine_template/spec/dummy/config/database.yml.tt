@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: dummy_<%= file_name %>_development
+
+test:
+  <<: *default
+  database: dummy_<%= file_name %>_test
+
+production:
+  <<: *default
+  database: dummy_<%= file_name %>production
+  username: dummy
+  password: <%= ENV['DUMMY_DATABASE_PASSWORD'] %>

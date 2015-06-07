@@ -1,0 +1,5 @@
+module <%= file_name.camelize %>
+  class Engine < ::Rails::Engine
+    isolate_namespace <%= file_name.camelize %>
+  end
+end

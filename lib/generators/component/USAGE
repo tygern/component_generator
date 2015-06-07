@@ -1,0 +1,8 @@
+Description:
+    Creates new rails engines in the components directory. New engines use postgres by default
+
+Example:
+    rails generate component my_engine
+
+    This will create a new engine called MyEngine in:
+        components/my_engine

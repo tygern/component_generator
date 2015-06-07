@@ -1,0 +1,2 @@
+<%= file_name.camelize %>::Engine.routes.draw do
+end

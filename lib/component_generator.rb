@@ -1,0 +1,2 @@
+module ComponentGenerator
+end
