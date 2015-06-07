@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = ComponentGenerator::VERSION
   s.authors     = ["Tyson Gern"]
   s.email       = ["tygern@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ComponentGenerator."
-  s.description = "TODO: Description of ComponentGenerator."
+  s.homepage    = "http://www.github.com/tygern/component_generator"
+  s.summary     = "Create rails components"
+  s.description = "Adds a generator to rails to quickly create new engines."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
