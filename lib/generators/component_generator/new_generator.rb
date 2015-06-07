@@ -1,7 +1,9 @@
 require 'rails/generators'
 
 module ComponentGenerator
-  class ComponentGenerator < Rails::Generators::NamedBase
+  class NewGenerator < Rails::Generators::NamedBase
+    desc "Create rails engine in components directory."
+
     source_root File.expand_path('../templates', __FILE__)
 
     def copy_component_directory
