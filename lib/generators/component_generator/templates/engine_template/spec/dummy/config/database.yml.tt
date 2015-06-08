@@ -13,6 +13,6 @@ test:
 
 production:
   <<: *default
-  database: dummy_<%= file_name %>production
+  database: dummy_<%= file_name %>_production
   username: dummy
   password: <%= ENV['DUMMY_DATABASE_PASSWORD'] %>

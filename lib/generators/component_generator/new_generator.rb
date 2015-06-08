@@ -13,6 +13,7 @@ module ComponentGenerator
 
       empty_directory "#{file_name}/app/src/#{file_name}"
       empty_directory "#{file_name}/spec/src/#{file_name}"
+      empty_directory "#{file_name}/spec/dummy/db"
 
       chmod "#{file_name}/test.sh", 0755
     end

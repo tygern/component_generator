@@ -6,7 +6,7 @@
 Creates new rails engines in the components directory. New engines use postgres by default
 
 ## Usage:
-- Require gem `gem "component_generator", "0.1.1"` .
+- Require gem `gem "component_generator", "0.1.2"` .
 - Install `bundle install`.
 - Run `rails generate component_generator:new my_engine`.
 - This will create a new engine called `MyEngine` in `components/my_engine`.
