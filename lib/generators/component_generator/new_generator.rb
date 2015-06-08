@@ -10,6 +10,10 @@ module ComponentGenerator
       self.destination_root = "components"
 
       directory "engine_template", file_name
+
+      empty_directory "#{file_name}/app/src/#{file_name}"
+      empty_directory "#{file_name}/spec/src/#{file_name}"
+
       chmod "#{file_name}/test.sh", 0755
     end
   end
