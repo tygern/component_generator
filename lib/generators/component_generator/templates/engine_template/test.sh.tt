@@ -4,7 +4,8 @@ exit_code=0
 
 echo "*** Running <%= file_name %> engine specs"
 bundle install --jobs=3 --retry=3 | grep Installing
-RAILS_ENV=test bundle exec rake db:create db:migrate > /dev/null
+RAILS_ENV=test bundle exec rake db:create > /dev/null
+RAILS_ENV=test bundle exec rake db:migrate > /dev/null
 bundle exec rspec spec
 exit_code+=$?
 
