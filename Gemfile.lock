@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    component_generator (0.1.2)
+    component_generator (0.1.4)
       rails (~> 4.2)
 
 GEM
@@ -48,7 +48,7 @@ GEM
     globalid (0.3.5)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
-    json (1.8.3)
+    json (1.8.2)
     loofah (2.0.2)
       nokogiri (>= 1.5.9)
     mail (2.6.3)
@@ -86,7 +86,7 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
-    sprockets (3.2.0)
+    sprockets (3.1.0)
       rack (~> 1.0)
     sprockets-rails (2.3.1)
       actionpack (>= 3.0)
@@ -102,6 +102,3 @@ PLATFORMS
 
 DEPENDENCIES
   component_generator!
-
-BUNDLED WITH
-   1.10.2

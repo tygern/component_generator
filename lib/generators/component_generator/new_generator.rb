@@ -15,7 +15,7 @@ module ComponentGenerator
       empty_directory "#{file_name}/spec/src/#{file_name}"
       empty_directory "#{file_name}/spec/dummy/db"
 
-      create_file ".rspec" do
+      create_file "#{file_name}/.rspec" do
         "--color"
       end
 
